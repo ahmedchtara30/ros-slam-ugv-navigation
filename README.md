@@ -6,6 +6,7 @@
 
 ## 🎥 Live Demo
 [![UGV Navigation Demo](https://img.youtube.com/vi/JHEuAx-2di8/0.jpg)](https://youtu.be/JHEuAx-2di8)
+
 *Autonomous navigation demo: Fast-LIO2 + LIO-SAM on P-Guard UGV in GPS-denied environments*
 
 ---
