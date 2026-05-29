@@ -68,4 +68,5 @@ Optimization: Minimize pose graph error (LIO-SAM) / Update ikd-Tree (Fast-LIO2)
 
 ## 📊 Results & Real-World Validation
 ### GPS vs. SLAM Performance Comparison
-https://raw.github.com/ahmedchtara30/ros-slam-ugv-navigation/blob/b4946505cfb358ca90c7c2f48126a5da1dc6228b/gps-vs-slam-comparison.png
+[https://raw.github.com/ahmedchtara30/ros-slam-ugv-navigation/blob/b4946505cfb358ca90c7c2f48126a5da1dc6228b/gps-vs-slam-comparison.png
+](https://raw.githubusercontent.com/ahmedchtara30/ros-slam-ugv-navigation/main/gps-vs-slam-comparison.png)
