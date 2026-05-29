@@ -5,8 +5,7 @@
 > 📍 Novation City, Sousse, Tunisia
 
 ## 🎥 Live Demo
-https://youtu.be/JHEuAx-2di8
-
+[![UGV Navigation Demo](https://img.youtube.com/vi/JHEuAx-2di8/0.jpg)](https://youtu.be/JHEuAx-2di8)
 *Autonomous navigation demo: Fast-LIO2 + LIO-SAM on P-Guard UGV in GPS-denied environments*
 
 ---
@@ -136,3 +135,60 @@ Optimization: Minimize pose graph error (LIO-SAM) / Update ikd-Tree (Fast-LIO2)
 ---
 
 ## 📁 Project Structure
+
+ros-slam-ugv-navigation/
+├── README.md # This file
+
+├── docs/
+
+│ ├── architecture.md # System diagram + data flow
+
+│ ├── ekf-transition.md # GPS→SLAM switching logic
+
+│ └── results/ # Simulation screenshots
+
+├── config/ # Algorithm configurations
+
+├── launch/ # ROS launch files
+
+└── videos/ # YouTube demo links
+
+
+## 🚀 How to Reproduce (Conceptual)
+
+```bash
+# 1. Setup ROS environment (Ubuntu 20.04 + ROS Noetic)
+sudo apt install ros-noetic-desktop-full
+
+# 2. Clone algorithm repos
+cd ~/catkin_ws/src
+git clone https://github.com/hku-mars/FAST_LIO.git
+git clone https://github.com/TixiaoShan/LIO-SAM.git
+
+# 3. Build workspace
+cd ~/catkin_ws
+catkin_make
+
+# 4. Configure P-Guard UGV sensors and launch
+roslaunch ros_slam_ugv slam_demo.launch
+
+# 5. Visualize in RViz
+rviz -d config.rviz
+```
+📝 Note: Full source code available upon request for verified collaborators and research partners.
+
+## 📬 Contact & Collaboration
+📧 Email: chtaraahmed30@gmail.com
+📍 Location: Tunisia
+🌐 Availability: Open to remote embedded systems, robotics, and AI/ML projects
+Open to:
+ROS development & SLAM consulting
+Embedded AI prototyping (STM32, Edge AI)
+Autonomous systems architecture
+Predictive maintenance for robotics
+## 📚 References & Resources
+Fast-LIO2 Paper: Direct LiDAR-Inertial Odometry
+LIO-SAM Paper: Tightly-coupled LiDAR-Inertial Odometry
+ROS Navigation Stack: Nav2 Documentation
+Enova Robotics: Novation City, Sousse
+Portfolio under active development.Report excerpts and technical documentation available upon request (sanitized for security).
