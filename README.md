@@ -135,26 +135,6 @@ Optimization: Minimize pose graph error (LIO-SAM) / Update ikd-Tree (Fast-LIO2)
 
 ---
 
-## 📁 Project Structure
-
-ros-slam-ugv-navigation/
-├── README.md # This file
-
-├── docs/
-
-│ ├── architecture.md # System diagram + data flow
-
-│ ├── ekf-transition.md # GPS→SLAM switching logic
-
-│ └── results/ # Simulation screenshots
-
-├── config/ # Algorithm configurations
-
-├── launch/ # ROS launch files
-
-└── videos/ # YouTube demo links
-
-
 ## 🚀 How to Reproduce (Conceptual)
 
 ```bash
