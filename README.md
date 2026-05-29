@@ -5,7 +5,8 @@
 > 📍 Novation City, Sousse, Tunisia
 
 ## 🎥 Live Demo
-*[YouTube video will be embedded here — link pending]*  
+https://youtu.be/JHEuAx-2di8
+
 *Autonomous navigation demo: Fast-LIO2 + LIO-SAM on P-Guard UGV in GPS-denied environments*
 
 ---
@@ -72,6 +73,7 @@ Optimization: Minimize pose graph error (LIO-SAM) / Update ikd-Tree (Fast-LIO2)
 ### GPS vs. SLAM Performance Comparison
 
 ![GPS vs Fast-LIO2 Comparison](https://raw.githubusercontent.com/ahmedchtara30/ros-slam-ugv-navigation/main/gps-vs-slam-comparison.png)
+
 *Left: Satellite view of Enova Robotics test site (Novation City, Sousse). Right: Fast-LIO2 LiDAR point cloud map generated in real-time. The SLAM map accurately reconstructs building geometry, roads, and obstacles where GPS signal is degraded or absent.*
 
 | Metric | Standard GPS | Fast-LIO2 SLAM |
