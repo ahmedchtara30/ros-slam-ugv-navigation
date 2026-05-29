@@ -1,6 +1,6 @@
 # 🤖 Outdoor SLAM — Autonomous UGV Navigation
 
-> 🎓 PFE Project | Enova Robotics & Tunisian Air Force (2022)  
+> 🎓 PFE Project | Enova Robotics (2022)  
 > 👨‍ Ahmed Chtara | Intelligent Systems & AI Engineer  
 > 📍 Novation City, Sousse, Tunisia
 
